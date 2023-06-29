@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <img src="images/homeWorks.png" alt="logo">
+    </div>
+</div>
+<div class="container">
+    <div class="account">
+        <h1 id="title">Get your free account</h1>
+        <h2>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</h2>
+        <form class="account-form">
+            <div id="inputs">
+                <div class="child">
+                    <label for="fullName" class="label-form">Full Name</label>
+                    <input type="text" id="fullName" class="input-form">
+                </div>
+                <div class="child">
+                    <label for="yourUsername" class="label-form">Your username</label>
+                    <input type="text" id="yourUsername" class="input-form">
+                </div>
+                <div class="child">
+                    <label for="email" class="label-form">E-mail</label>
+                    <input type="email" id="email" class="input-form">
+                </div>
+                <div class="child">
+                    <label for="password" class="label-form">Password</label>
+                    <input type="password" id="password" class="input-form">
+                </div>
+                <div class="child">
+                    <label for="repeatPassword" class="label-form">Repeat Password</label>
+                    <input type="password" id="repeatPassword" class="input-form">
+                </div>
+            </div>
+            <div class="agree" id="agreeBlock">
+                <input type="checkbox" id="agree" checked>
+                <label for="agree" class="agree-info">Agree to our Terms of Service and Privacy Statement</label>
+
+            </div>
+            <button type="submit" class="btn" id="signUp">Sign Up</button>
+
+        </form>
+        <div class="have-account">
+            <a href="#" id="have-account">
+                Already have an account?
+            </a>
+        </div>
+    </div>
+    <div class="image" id="image">
+        <img src="images/bg.png" alt="background">
+        <div class="image-rocket">
+            <img src="images/rocket.png" alt="rocket">
+        </div>
+        <div class="ellipse one"></div>
+        <div class="ellipse two"></div>
+        <div class="ellipse three"></div>
+    </div>
+</div>
+
+<div class="popup-container" id="popup">
+    <div class="message">
+        <div>We send to your mail confirmation link which you should click to finalize registration.</div>
+        <button class="btn" id="okButton">ОК</button>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
