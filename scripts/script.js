@@ -111,6 +111,8 @@ window.onload = function () {
         form.removeEventListener('submit', registration)
         form.addEventListener('submit', authorization)
     }
+
+    console.log('hello world')
 }
 
 
