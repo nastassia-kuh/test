@@ -3,7 +3,7 @@ window.onload = function () {
     let popup = document.getElementById('popup')
     let password = document.getElementById('password')
     let yourUsername = document.getElementById('yourUsername')
-    console.log('hello')
+    console.log('hello your task')
 
 
     // В поле "Full Name" запретите вводить цифры
