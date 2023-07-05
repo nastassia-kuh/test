@@ -4,6 +4,7 @@ window.onload = function () {
     let password = document.getElementById('password')
     let yourUsername = document.getElementById('yourUsername')
     console.log('hello')
+    console.log('hello my task')
 
 
     // В поле "Full Name" запретите вводить цифры
